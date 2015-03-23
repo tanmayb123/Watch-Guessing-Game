@@ -13,6 +13,13 @@
 		01C41DAE1AB10D2500CAF5F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C41DAD1AB10D2500CAF5F4 /* Images.xcassets */; };
 		01C41DB11AB10D2500CAF5F4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C41DAF1AB10D2500CAF5F4 /* LaunchScreen.xib */; };
 		01C41DBD1AB10D2600CAF5F4 /* WatchGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C41DBC1AB10D2600CAF5F4 /* WatchGameTests.swift */; };
+		01C41DD01AB10EC000CAF5F4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C41DCF1AB10EC000CAF5F4 /* InterfaceController.swift */; };
+		01C41DD21AB10EC000CAF5F4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C41DD11AB10EC000CAF5F4 /* NotificationController.swift */; };
+		01C41DD41AB10EC000CAF5F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C41DD31AB10EC000CAF5F4 /* Images.xcassets */; };
+		01C41DD81AB10EC000CAF5F4 /* WatchGame WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 01C41DD71AB10EC000CAF5F4 /* WatchGame WatchKit App.app */; };
+		01C41DE01AB10EC000CAF5F4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01C41DDE1AB10EC000CAF5F4 /* Interface.storyboard */; };
+		01C41DE21AB10EC000CAF5F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C41DE11AB10EC000CAF5F4 /* Images.xcassets */; };
+		01C41DE51AB10EC000CAF5F4 /* WatchGame WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 01C41DCA1AB10EC000CAF5F4 /* WatchGame WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +30,35 @@
 			remoteGlobalIDString = 01C41DA01AB10D2500CAF5F4;
 			remoteInfo = WatchGame;
 		};
+		01C41DD91AB10EC000CAF5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C41D991AB10D2500CAF5F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C41DD61AB10EC000CAF5F4;
+			remoteInfo = "WatchGame WatchKit App";
+		};
+		01C41DE31AB10EC000CAF5F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01C41D991AB10D2500CAF5F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01C41DC91AB10EC000CAF5F4;
+			remoteInfo = "WatchGame WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01C41DEC1AB10EC000CAF5F4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				01C41DE51AB10EC000CAF5F4 /* WatchGame WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		01C41DA11AB10D2500CAF5F4 /* WatchGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +71,16 @@
 		01C41DB61AB10D2600CAF5F4 /* WatchGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01C41DBB1AB10D2600CAF5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		01C41DBC1AB10D2600CAF5F4 /* WatchGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchGameTests.swift; sourceTree = "<group>"; };
+		01C41DCA1AB10EC000CAF5F4 /* WatchGame WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchGame WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C41DCD1AB10EC000CAF5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C41DCE1AB10EC000CAF5F4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		01C41DCF1AB10EC000CAF5F4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		01C41DD11AB10EC000CAF5F4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		01C41DD31AB10EC000CAF5F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		01C41DD71AB10EC000CAF5F4 /* WatchGame WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchGame WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01C41DDD1AB10EC000CAF5F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01C41DDF1AB10EC000CAF5F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		01C41DE11AB10EC000CAF5F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +98,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01C41DC71AB10EC000CAF5F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +113,8 @@
 			children = (
 				01C41DA31AB10D2500CAF5F4 /* WatchGame */,
 				01C41DB91AB10D2600CAF5F4 /* WatchGameTests */,
+				01C41DCB1AB10EC000CAF5F4 /* WatchGame WatchKit Extension */,
+				01C41DDB1AB10EC000CAF5F4 /* WatchGame WatchKit App */,
 				01C41DA21AB10D2500CAF5F4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +124,8 @@
 			children = (
 				01C41DA11AB10D2500CAF5F4 /* WatchGame.app */,
 				01C41DB61AB10D2600CAF5F4 /* WatchGameTests.xctest */,
+				01C41DCA1AB10EC000CAF5F4 /* WatchGame WatchKit Extension.appex */,
+				01C41DD71AB10EC000CAF5F4 /* WatchGame WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +168,44 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		01C41DCB1AB10EC000CAF5F4 /* WatchGame WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				01C41DCF1AB10EC000CAF5F4 /* InterfaceController.swift */,
+				01C41DD11AB10EC000CAF5F4 /* NotificationController.swift */,
+				01C41DD31AB10EC000CAF5F4 /* Images.xcassets */,
+				01C41DCC1AB10EC000CAF5F4 /* Supporting Files */,
+			);
+			path = "WatchGame WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		01C41DCC1AB10EC000CAF5F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C41DCD1AB10EC000CAF5F4 /* Info.plist */,
+				01C41DCE1AB10EC000CAF5F4 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01C41DDB1AB10EC000CAF5F4 /* WatchGame WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				01C41DDE1AB10EC000CAF5F4 /* Interface.storyboard */,
+				01C41DE11AB10EC000CAF5F4 /* Images.xcassets */,
+				01C41DDC1AB10EC000CAF5F4 /* Supporting Files */,
+			);
+			path = "WatchGame WatchKit App";
+			sourceTree = "<group>";
+		};
+		01C41DDC1AB10EC000CAF5F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01C41DDD1AB10EC000CAF5F4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +216,12 @@
 				01C41D9D1AB10D2500CAF5F4 /* Sources */,
 				01C41D9E1AB10D2500CAF5F4 /* Frameworks */,
 				01C41D9F1AB10D2500CAF5F4 /* Resources */,
+				01C41DEC1AB10EC000CAF5F4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				01C41DE41AB10EC000CAF5F4 /* PBXTargetDependency */,
 			);
 			name = WatchGame;
 			productName = WatchGame;
@@ -150,6 +246,39 @@
 			productReference = 01C41DB61AB10D2600CAF5F4 /* WatchGameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		01C41DC91AB10EC000CAF5F4 /* WatchGame WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C41DE91AB10EC000CAF5F4 /* Build configuration list for PBXNativeTarget "WatchGame WatchKit Extension" */;
+			buildPhases = (
+				01C41DC61AB10EC000CAF5F4 /* Sources */,
+				01C41DC71AB10EC000CAF5F4 /* Frameworks */,
+				01C41DC81AB10EC000CAF5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01C41DDA1AB10EC000CAF5F4 /* PBXTargetDependency */,
+			);
+			name = "WatchGame WatchKit Extension";
+			productName = "WatchGame WatchKit Extension";
+			productReference = 01C41DCA1AB10EC000CAF5F4 /* WatchGame WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		01C41DD61AB10EC000CAF5F4 /* WatchGame WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01C41DE61AB10EC000CAF5F4 /* Build configuration list for PBXNativeTarget "WatchGame WatchKit App" */;
+			buildPhases = (
+				01C41DD51AB10EC000CAF5F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchGame WatchKit App";
+			productName = "WatchGame WatchKit App";
+			productReference = 01C41DD71AB10EC000CAF5F4 /* WatchGame WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +294,12 @@
 					01C41DB51AB10D2600CAF5F4 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = 01C41DA01AB10D2500CAF5F4;
+					};
+					01C41DC91AB10EC000CAF5F4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					01C41DD61AB10EC000CAF5F4 = {
+						CreatedOnToolsVersion = 6.3;
 					};
 				};
 			};
@@ -183,6 +318,8 @@
 			targets = (
 				01C41DA01AB10D2500CAF5F4 /* WatchGame */,
 				01C41DB51AB10D2600CAF5F4 /* WatchGameTests */,
+				01C41DC91AB10EC000CAF5F4 /* WatchGame WatchKit Extension */,
+				01C41DD61AB10EC000CAF5F4 /* WatchGame WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -202,6 +339,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C41DC81AB10EC000CAF5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C41DD81AB10EC000CAF5F4 /* WatchGame WatchKit App.app in Resources */,
+				01C41DD41AB10EC000CAF5F4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01C41DD51AB10EC000CAF5F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C41DE01AB10EC000CAF5F4 /* Interface.storyboard in Resources */,
+				01C41DE21AB10EC000CAF5F4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +380,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		01C41DC61AB10EC000CAF5F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01C41DD21AB10EC000CAF5F4 /* NotificationController.swift in Sources */,
+				01C41DD01AB10EC000CAF5F4 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +396,16 @@
 			isa = PBXTargetDependency;
 			target = 01C41DA01AB10D2500CAF5F4 /* WatchGame */;
 			targetProxy = 01C41DB71AB10D2600CAF5F4 /* PBXContainerItemProxy */;
+		};
+		01C41DDA1AB10EC000CAF5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C41DD61AB10EC000CAF5F4 /* WatchGame WatchKit App */;
+			targetProxy = 01C41DD91AB10EC000CAF5F4 /* PBXContainerItemProxy */;
+		};
+		01C41DE41AB10EC000CAF5F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01C41DC91AB10EC000CAF5F4 /* WatchGame WatchKit Extension */;
+			targetProxy = 01C41DE31AB10EC000CAF5F4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -250,6 +424,14 @@
 				01C41DB01AB10D2500CAF5F4 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		01C41DDE1AB10EC000CAF5F4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01C41DDF1AB10EC000CAF5F4 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -338,6 +520,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -348,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = WatchGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -388,6 +572,60 @@
 			};
 			name = Release;
 		};
+		01C41DE71AB10EC000CAF5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = WatchGame_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchGame WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		01C41DE81AB10EC000CAF5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = WatchGame_WatchKit_Extension;
+				INFOPLIST_FILE = "WatchGame WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		01C41DEA1AB10EC000CAF5F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WatchGame WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		01C41DEB1AB10EC000CAF5F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WatchGame WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,6 +651,22 @@
 			buildConfigurations = (
 				01C41DC41AB10D2600CAF5F4 /* Debug */,
 				01C41DC51AB10D2600CAF5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01C41DE61AB10EC000CAF5F4 /* Build configuration list for PBXNativeTarget "WatchGame WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C41DE71AB10EC000CAF5F4 /* Debug */,
+				01C41DE81AB10EC000CAF5F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01C41DE91AB10EC000CAF5F4 /* Build configuration list for PBXNativeTarget "WatchGame WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01C41DEA1AB10EC000CAF5F4 /* Debug */,
+				01C41DEB1AB10EC000CAF5F4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
